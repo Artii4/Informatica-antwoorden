@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Vbswitch</title>
+		<script>
+			let keuze = window.prompt("Welke dag vertrek je (1 = ma, etc)?");
+
+			let dag;
+			switch (keuze) {
+				case "1":
+					dag = "maandag";
+					break;
+				case "2":
+					dag = "dinsdag";
+					break;
+				case "3":
+					dag = "woensdag";
+					break;
+				case "4":
+					dag = "donderdag";
+					break;
+				case "5":
+					dag = "vrijdag";
+					break;
+				case "6":
+					dag = "zaterdag";
+					break;
+				case "7":
+					dag = "zondag";
+					break;
+				default:
+					dag = "onbekend";
+			}
+
+			document.write("Je vertrekdag is: " + dag + ".");
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
