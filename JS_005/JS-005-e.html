@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>js05d</title>
+		<script>
+			let naam;
+			let standaardWaarde = "Uw naam SVP!";
+
+			do {
+				naam = window.prompt("Geef uw naam op", standaardWaarde);
+			} while (!naam || naam == standaardWaarde);
+
+			window.alert(naam);
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

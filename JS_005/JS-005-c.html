@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>IfElsebv01</title>
+		<script>
+			let leeftijd = parseInt(window.prompt("Wat is uw leeftijd?", "17"));
+
+			if (leeftijd < 18) {
+				document.write("U mag niet rijden");
+			} else {
+				let heeftRijbewijs = window.prompt("Heeft u een rijbewijs? ('J' of 'N')").toUpperCase();
+				if (heeftRijbewijs == "J") {
+					document.write("U mag rijden");
+				} else if (heeftRijbewijs == "N") {
+					document.write("U mag niet rijden");
+				} else {
+					document.write("U heeft iets anders dan 'J' of 'N' ingevuld!");
+				}
+			}
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
